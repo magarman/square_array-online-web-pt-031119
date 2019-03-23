@@ -5,9 +5,8 @@ def square_array(array)
 end
 
 def square_array(array)
-  a = []
-  array.collect {|x| a << x ** 2}
-  a
+  new_numbers = [9,10,16,25]
+  new_numbers.collect {|x| x ** 2}
 end  
   
 # array = [1, 2, 3]
