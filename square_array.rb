@@ -9,3 +9,5 @@ def square_array(array)
   array.collect {|x| a << x ** 2}
 end  
   
+# array = [1, 2, 3]
+#
