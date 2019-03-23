@@ -6,6 +6,6 @@ end
 
 def square_array(array)
   a = []
-  array.each {|x| a << x ** 2}
+  array.collect {|x| a << x ** 2}
 end  
   
